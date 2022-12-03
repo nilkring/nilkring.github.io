@@ -1,0 +1,83 @@
+{
+  "testimonials": [
+
+    {
+      "id": 8,
+      "name": "Anthony M. Oguera",
+      "firstName": "Anthony",
+      "position": "Marketing Coordinator",
+      "info": "“User Richard: Please have an in-app suggestion section, as customer can directly input our opinion not only on ordered food(which only appear when ordering). But for overall improvement. A filter for healthy menu should be added as more and more people are aware of the importance of taking care oneself. It is messy and troublesome just to scroll the entire selection of menu to look for this type of menu (in fact it is listed among other types of food menu). Thanks”",
+      "class": "active"
+    },
+
+
+    {
+      "id": 7,
+      "name": "Erwin Arisga Bangkil",
+      "firstName": "Erwin",
+      "position": "Marketing Assistant",
+      "info": "“User David: I love the quirky update notes! Not yet best part of the app, of course, but I really enjoy them! Love the app. It could include some automatic translation for menu items, and there could be fewer pop-up advertisements, but other than that, it's awesome”",
+      "class": "active"
+    },
+
+    {
+      "id": 6,
+      "name": "Erlica Marquez",
+      "firstName": "Erlica",
+      "position": "IT Support",
+      "info": "“User Rhey: Interface design is top notch, but the app can improve more regarding the rating review. The way rating drivers for aspects such as cleanliness, completeness of facilities, etc can be discouraging due to the way the user needs to swipe from left to right. My feedback is that those badges should be placed where the user doesn't need to use the finger more outside of tapping the badges.”",
+      "class": "active"
+    },
+
+    {
+      "id": 5,
+      "name": "Adrian M. Victor",
+      "firstName": "Adrian",
+      "position": "IT Support",
+      "info": "“User Blankey: The app is good but I would like it if I was able to say thank you to the deliverymen after they have delivered the order. I usually ask them to leave the food on this hook on the gate so they would take a photo as evidence and then send it to me. But before I can text thank you to them, the app would swipe the chat away and immediately ask me to review the driver. There's no way of getting back to them individually to let them know that they are appreciated.”",
+      "class": "active"
+    },
+
+    {
+      "id": 4,
+      "name": "Andrei Carl L. Bernido",
+      "firstName": "Andrei",
+      "position": "Marketing Coordinator",
+      "info": "“User Vhea: Lot of ways to communicate with the driver like calls and message. Same goes with the merchant. Drivers' profile shows vaccinated. My reco is self-pick up should allow cx to use food voucher. Menu should also be updated if it is not available in store to avoid inconvenience to driver, cx, and merchant. Ordered food then the driver and merchant need to inform me that it is not available. First time using the app before reviewing. Good exp but needs improvement.”",
+      "class": "active"
+    },
+
+    {
+      "id": 3,
+      "name": "Joshua A. Arsenio",
+      "firstName": "Joshua",
+      "position": "President Of Sales",
+      "info": "“User Avi: Zeus food, grab express, especially zeus pabili has been so helpful for all the chores and tasks that I cannot do myself like buying necessary medicines for my cancer-stricken aunt.. I usually buy meds from two cities away from us due to unavailability nearby.. so it has been very efficient.. the eade awesome five stars of booking and the kindness of the riders are for the app and the service everytime! Thank you!”"
+    },
+
+    {
+      "id": 2,
+      "name": "Franklin B. Manog",
+      "firstName": "Franklin",
+      "position": "Web Designer",
+      "info": "“User Jo Adam: Super easy, fast, comfortable, safe, efficient. All these for grab car service. Grav food and deliveries are definite super add ons to make the app multi tasking and purpose. And few premium features are worth premium.”"
+    },
+
+    {
+      "id": 1,
+      "name": "Joash Marino Cantoria",
+      "firstName": "Joash",
+      "position": "Marketing Assistant",
+      "info": "“User Sally: Extremely fast and furious delivery just by bicycle and not high speed e scooter. The zeus rider was very kind and friendly. He is a hero, because i need to work as well after my fast and furious delivery of breakfast. Thank you for the helping me with insisting for the all the condiments.”"
+    },
+
+    {
+      "id": 0,
+      "name": "Rain Dungca",
+      "firstName": "Rain",
+      "position": "Web Designer",
+      "info": "“User Jessielyn: To improve the service, you may advise your riders to always make sure there are no missing items in the order. They can remind the crew to check the order and make sure its complete to avoid inconvenience to all parties especially the customers. You guys have to imagine and understand that customers have been waiting for their food. They do not deserve missing foods.”"
+    }
+
+  ]
+}

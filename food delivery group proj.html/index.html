@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Zeus</title>
+    <!--=============== Favicon ===============-->
+    <link
+      rel="shortcut icon"
+      href="./images/logo.png"
+      type="image/png"
+    />
+    <!--=============== Swiper CSS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <!--=============== Boxicons ===============-->
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!--=============== Custom StyleSheet ===============-->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  
+  <body>
+    <!--=============== Header ===============-->
+    <header class="header">
+      <nav class="navbar">
+        <div class="row d-flex container">
+          <a href="" class="logo d-flex">
+          <img src="./images/logo.png" alt="" />
+          <ul class="nav-list d-flex">
+            <a href="">Popular Cuisines Order</a>
+            <a href="">About Zeus</a>
+            <a href="">Contact Us</a>
+            <span class="close d-flex"><i class="bx bx-x"></i></span>
+          </ul>
+          
+          <div class="col d-flex">
+            <form>
+              <input type="search" placeholder="Search" />
+              <button class="d-flex"><i class="bx bx-search"></i></button>
+            </form>
+            <div class="cart-icon d-flex">
+              <i class="bx bx-shopping-bag"></i>
+              <span>0</span>
+            </div>
+            <a class="btn signin">Login</a>
+          </div>
+
+          <!-- Hamburger -->
+          <div class="hamburger d-flex">
+            <i class="bx bx-menu"></i>
+          </div>
+        </div>
+      </nav>
+
+      <!--=============== Home ===============-->
+      <div class="home">
+        <div class="row container">
+          <div class="col">
+            <div class="faster">
+              Reliable Service
+              <div class="image d-flex">
+                <img src="./images/mobile.png" alt="" />
+                <img src="./images/meat-2.svg" alt="" />   
+              </div>
+            </div>
+            <h1>
+              Find the perfect food<br />
+              that you want and <br />
+              <span class="color">ready to deliver <br />on time.</span>
+            </h1>
+            <p>
+              A shipping method where freight is picked up at the shop of the sender and delivered to the recipient's door.
+              Food that is delivered at the right time. Good food is what we deliver. 
+            </p>
+            <a href="" class="btn">Swipe Down</a>
+          </div>
+          <div class="col">
+            <img src="./images/delivery-1.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <!--=============== SignIn Form ===============-->
+      <div class="wrapper">
+        <form action="" class="form">
+          <h2>WELCOME!</h2>
+          <div class="control">
+            <label for="">Enter Email:</label>
+            <input type="email" placeholder="Enter Your Email" />
+          </div>
+          <div class="control">
+            <label for="">Password:</label>
+            <input type="password" placeholder="Password" />
+          </div>
+          <div class="checkbox d-flex">
+            <input type="checkbox" />
+            <span>Remember Me</span>
+          </div>
+          <button class="btn">Sign In</button>
+          <div class="links">
+            <span>Forgot Password? <a href="">Click Here</a></span>
+            <span>Don't Have An Account? <a href="">Create One</a></span>
+          </div>
+        </form>
+        <div class="close-form">
+          <i class="bx bx-x"></i>
+        </div>
+      </div>
+    </header>
+
+    <!--=============== Services ===============-->
+    <section class="section services" id="services">
+      <div class="row container">
+        <div class="col">
+          <h2>This is latest app that partner to deliver food.</h2>
+          <p>
+            Zeus app aims to provide excellent service in collaboration with the food industry and with every delivery to give you satisfaction.
+          </p>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./images/food.png" alt="" />
+            <h3>
+              Choose <br />
+              your favorite <br />
+              food
+            </h3>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./images/delivery-4.png" alt="" />
+            <h3>
+              Get delivery<br />
+              of food<br />
+              at your home <br />
+            </h3>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./images/rating.png" alt="" />
+            <h3>
+              We have <br />
+              2,000+ review <br />
+              on our app
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== About ===============-->
+    <section class="section about" id="about">
+      <div class="row container">
+        <div class="col">
+          <img src="./images/delivery-service.jpg" alt="" />
+        </div>
+        <div class="col">
+          <h2>These are the Benefits & Services offer to all user</h2>
+          <p>
+            Wide target with good service.
+            These are services that can be delivered for everyone, to avoid a bad experience for all users.
+          </p>
+          <div class="d-grid">
+            <div class="card">
+              <img src="./images/freedelivery.png" alt="" />
+              <h4>Free Delivery Service</h4>
+              <span>For all orders over ₱800</span>
+            </div>
+            <div class="card">
+              <img src="./images/peso.png" alt="" />
+              <h4>Return & Refund</h4>
+              <span>Money Back Guarantee</span>
+            </div>
+            <div class="card">
+              <img src="./images/security.svg" alt="" />
+              <h4>Secure Payment</h4>
+              <span>100% Secure Payment</span>
+            </div>
+            <div class="card">
+              <img src="./images/time.svg" alt="" />
+              <h4>Quality Support</h4>
+              <span>Help Support Assistant 24/7</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== Recipes ===============-->
+    <section class="section recipes" id="recipes">
+      <h2>Explore Cuisines</h2>
+      <div class="row container">
+        <div class="filters d-flex">
+          <span data-filter="All Product">See All Product</span>
+          <span data-filter="FDish">Filipino Dishes</span>
+          <span data-filter="Fast Food">Fast Food</span>
+          <span data-filter="Desserts">Desserts</span>
+          <span data-filter="Drinks">Non-Alcoholic Beverages</span>
+        </div>
+        <div class="products">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper" id="products-wrapper">
+            </div>
+          </div>
+          <div class="pagination">
+            <div class="custom-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--=============== Testimonials ===============-->
+    <section class="section testimonials" id="testimonials">
+      <div class="row container">
+        <div class="col">
+          <div class="card" data-filter="Andrei">
+            <div class="d-flex">
+              <div class="image">
+                <img src="./images/profile-4.jpg" alt="" />
+              </div>
+              <div>
+                <h4>Andrei Carl L. Bernido</h4>
+                <span>Marketing Coordinator</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" data-filter="Anthony">
+            <div class="d-flex">
+              <div class="image">
+                <img src="./images/profile-8.jpg" alt="" />
+              </div>
+              <div>
+                <h4>Anthony M. Oguera</h4>
+                <span>Marketing Coordinator</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" data-filter="Franklin">
+            <div class="d-flex">
+              <div class="image">
+                <img src="./images/profile-2.jpg" alt="" />
+              </div>
+              <div>
+                <h4>Franklin B. Manog</h4>
+                <span>Web Designer</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" data-filter="Rain">
+            <div class="d-flex">
+              <div class="image">
+                <img src="./images/profile-0.jpg" alt="" />
+              </div>
+              <div>
+                <h4>Rain Dungca</h4>
+                <span>Web Designer</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" data-filter="Joshua">
+            <div class="d-flex">
+              <div class="image">
+                <img src="./images/profile-3.jpg" alt="" />
+              </div>
+              <div>
+                <h4>Joshua A. Arsenio</h4>
+                <span>President of Sales</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" data-filter="Erlica">
+            <div class="d-flex">
+              <div class="image">
+                <img src="./images/profile-6.jpg" alt="" />
+              </div>
+              <div>
+                <h4>Erlica Marquez</h4>
+                <span>IT Support</span>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="card" data-filter="Adrian">
+            <div class="d-flex">
+              <div class="image">
+                <img src="./images/profile-5.jpg" alt="" />
+              </div>
+              <div>
+                <h4>Adrian M. Victor</h4>
+                <span>IT Support</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" data-filter="Erwin">
+            <div class="d-flex">
+              <div class="image">
+                <img src="./images/profile-7.jpg" alt="" />
+              </div>
+              <div>
+                <h4>Erwin Arisga Bangkil</h4>
+                <span>Marketing Assistant</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" data-filter="Joash">
+            <div class="d-flex">
+              <div class="image">
+                <img src="./images/profile-1.jpg" alt="" />
+              </div>
+              <div>
+                <h4>Joash Marino Cantoria</h4>
+                <span>Marketing Assistant</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <h2>
+            What our Users<br />
+            <span>are saying?</span>
+          </h2>
+          <div class="test-wrapper">
+            <div class="testimonial active" data-id="Andrei">
+              <div class="d-flex">
+                <div>
+                  <h4>Andrei Carl L. Bernido</h4>
+                  <span>Marketing Coordinator</span>
+                </div>
+
+                <div class="rating">
+                  <span><i class="bx bxs-star"></i></span>
+                  <span><i class="bx bxs-star"></i></span>
+                  <span><i class="bx bxs-star"></i></span>
+                  <span><i class="bx bxs-star"></i></span>
+                  <span><i class="bx bxs-star"></i></span>
+                </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--=============== App ===============-->
+    <section class="section app">
+      <div class="row container">
+        <div class="col">
+          <div class="circle">
+            <div class="inner-circle"></div>
+            <img src="./images/ice-cream.png" alt="" />
+          </div>
+        </div>
+        <div class="col">
+          <h2>
+          Never Feel Hungry? Try To Download Our Mobile App And Order Delicious Food
+          </h2>
+          <p>
+            Online ordering has enabled many food businesses to 
+            <br> manage their peak business hours very effectively.
+          </p>
+          <div class="d-flex">
+            <img src="./images/google-play.png" alt="" />
+            <img src="./images/app-store.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--=============== Footer ===============-->
+    <footer class="footer">
+      <div class="row container">
+        <div class="col">
+          <div class="logo d-flex">
+            <img src="./images/logo.png" alt="logo" />
+          </div>
+          <p>
+            Online food ordering is the process of ordering food, for delivery or pickup, from a website or other application.
+          </p>
+          <div class="icons d-flex">
+            <div class="icon d-flex">
+              <i class="bx bxl-facebook"></i>
+            </div>
+            <div class="icon d-flex"><i class="bx bxl-tiktok"></i></div>
+            <div class="icon d-flex"><i class="bx bxl-instagram"></i></div>
+          </div>
+        </div>
+        <div class="col">
+          <div>
+            <h4>Company</h4>
+            <a href="">About Us</a>
+            <a href="">Blog</a>
+            <a href="">About Products</a>
+            <a href="">Locations</a>
+          </div>
+          <div>
+            <h4>Services</h4>
+            <a href="">Order tracking</a>
+            <a href="">Wish List</a>
+            <a href="">My account</a>
+            <a href="">Terms & Conditions</a>
+          </div>
+          <div>
+            <h4>Support</h4>
+            <a href="">FAQ</a>
+            <a href="">Policy </a>
+            <a href="">Help</a>
+            <a href="">Drive With Zeus</a>
+          </div>
+          <div>
+            <h4>Contact</h4>
+            <a href="">Viber</a>
+            <a href="">Support System</a>
+            <a href="">Facebook Page</a>
+            <a href="">Telegram</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="footer-bottom">
+      <div class="row container d-flex">
+        <p>Copyright © 2022 | Group 1</p>
+        <p>Created by: Zeus</p>
+      </div>
+    </div>
+
+    <!--=============== Swiper JS ===============-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!--=============== Custom JS ===============-->
+    <script src="./js/testimonial.js"></script>
+    <script src="./js/products.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

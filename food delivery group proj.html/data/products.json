@@ -1,0 +1,123 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Famous Fries",
+      "price": "58.00",
+      "url": "./images/mcfries.png",
+      "category": "Fast Food"
+    },
+    {
+      "id": 2,
+      "title": "Cheeseburger ka sa'kin",
+      "price": "63.00",
+      "url": "./images/mcburger.png",
+      "category": "Fast Food"
+    },
+    {
+      "id": 3,
+      "title": "Sundae",
+      "price": "29.00",
+      "url": "./images/sundae.png",
+      "category": "Desserts"
+    },
+    {
+      "id": 4,
+      "title": "Apple Pie",
+      "price": "35.00",
+      "url": "./images/apple-pie.png",
+      "category": "Desserts"
+    },
+    {
+      "id": 5,
+      "title": "McCrispy Chicken Fillet",
+      "price": "89.00",
+      "url": "./images/wombo-combo.png",
+      "category": "Fast Food"
+    },
+    {
+      "id": 6,
+      "title": "Chickenjoy Bucket",
+      "price": "399.00",
+      "url": "./images/chicken-bucket.png",
+      "category": "Fast Food"
+    },
+    {
+      "id": 7,
+      "title": "Mango Pie",
+      "price": "45.00",
+      "url": "./images/mango-pie.png",
+      "category": "Desserts"
+    },
+    {
+      "id": 8,
+      "title": "Halo-Halo Special",
+      "price": "50.00",
+      "url": "./images/halo-halo.png",
+      "category": "Desserts"
+    },
+    {
+      "id": 9,
+      "title": "Pinoy Lechon",
+      "price": "150.00",
+      "url": "./images/lechon.png",
+      "category": "FDish"
+    },
+    {
+      "id": 10,
+      "title": "Mcfloat",
+      "price": "30.00",
+      "url": "./images/mcfloat.png",
+      "category": "Drinks"
+    },
+    {
+      "id": 11,
+      "title": "Sisig",
+      "price": "80.00",
+      "url": "./images/sisig.png",
+      "category": "FDish"
+    },
+    {
+      "id": 12,
+      "title": "Bulalo",
+      "price": "120.00",
+      "url": "./images/bulalo.png",
+      "category": "FDish"
+    },
+    {
+      "id": 13,
+      "title": "Chicken Adobo",
+      "price": "100.00",
+      "url": "./images/adobo.png",
+      "category": "FDish"
+    },
+    {
+      "id": 14,
+      "title": "Mccafe Iced Coffee",
+      "price": "52.00",
+      "url": "./images/coffee.png",
+      "category": "Drinks"
+    },
+    {
+      "id": 15,
+      "title": "TeaTalk",
+      "price": "87.00",
+      "url": "./images/milktea.png",
+      "category": "Drinks"
+    },
+    {
+      "id": 16,
+      "title": "Mango Pineapple Smoothie",
+      "price": "79.00",
+      "url": "./images/mangopineapple.png",
+      "category": "Drinks"
+    },
+    {
+      "id": 17,
+      "title": "Glazed Donut Boxes",
+      "price": "234.00",
+      "url": "./images/donuts.png",
+      "category": "Desserts"
+    }
+  ]
+}
